@@ -1,0 +1,83 @@
+
+################################################################# Method 1: DeepQA  #################################################################
+
+Usage: /home/jianliu/DeepRank3//bin/P1-run-DeepRank-DeepQA.sh <target id> <fasta> <model directory> <output-directory>
+
+	** Example: /home/jianliu/DeepRank3//bin/P1-run-DeepRank-DeepQA.sh T0980s1 /home/jianliu/DeepRank3//examples/T0980s1.fasta /home/jianliu/DeepRank3//examples/T0980s1 /home/jianliu/DeepRank3//test_out/T0980s1_DeepQA
+
+
+################################################################# Method 2: proq3  #################################################################
+
+Usage: /home/jianliu/DeepRank3//bin/P2-run-DeepRank-proq3.sh <target id> <fasta> <model directory> <output-directory>
+
+	** Example: /home/jianliu/DeepRank3//bin/P2-run-DeepRank-proq3.sh T0980s1 /home/jianliu/DeepRank3//examples/T0980s1.fasta /home/jianliu/DeepRank3//examples/T0980s1 /home/jianliu/DeepRank3//test_out/T0980s1_proq3
+
+
+################################################################# Method 3: dope  #################################################################
+
+Usage: /home/jianliu/DeepRank3//bin/P3-run-DeepRank-dope.sh <target id> <fasta> <model directory> <output-directory>
+
+	** Example: /home/jianliu/DeepRank3//bin/P3-run-DeepRank-dope.sh T0980s1 /home/jianliu/DeepRank3//examples/T0980s1.fasta /home/jianliu/DeepRank3//examples/T0980s1 /home/jianliu/DeepRank3//test_out/T0980s1_dope
+
+
+################################################################# Method 4: SBROD  #################################################################
+
+Usage: /home/jianliu/DeepRank3//bin/P10-run-DeepRank-SBROD.sh <target id> <fasta> <model directory> <output-directory>
+
+	** Example: /home/jianliu/DeepRank3//bin/P10-run-DeepRank-SBROD.sh T0980s1 /home/jianliu/DeepRank3//examples/T0980s1.fasta /home/jianliu/DeepRank3//examples/T0980s1 /home/jianliu/DeepRank3//test_out/T0980s1_SBROD
+
+
+################################################################# Method 5: RWplus  #################################################################
+
+
+################################################################# Method 6: RF_SRS  #################################################################
+
+Usage: /home/jianliu/DeepRank3//bin/P5-run-DeepRank-RF_SRS.sh <target id> <fasta> <model directory> <output-directory>
+
+	** Example: /home/jianliu/DeepRank3//bin/P5-run-DeepRank-RF_SRS.sh T0980s1 /home/jianliu/DeepRank3//examples/T0980s1.fasta /home/jianliu/DeepRank3//examples/T0980s1 /home/jianliu/DeepRank3//test_out/T0980s1_RF_SRS
+
+
+################################################################# Method 7: OPUS  #################################################################
+
+Usage: /home/jianliu/DeepRank3//bin/P4-run-DeepRank-OPUS.sh <target id> <fasta> <model directory> <output-directory>
+
+	** Example: /home/jianliu/DeepRank3//bin/P4-run-DeepRank-OPUS.sh T0980s1 /home/jianliu/DeepRank3//examples/T0980s1.fasta /home/jianliu/DeepRank3//examples/T0980s1 /home/jianliu/DeepRank3//test_out/T0980s1_OPUS
+
+
+################################################################# Method 8: voronota  #################################################################
+
+Usage: /home/jianliu/DeepRank3//bin/P6-run-DeepRank-vonorota.sh <target id> <fasta> <model directory> <output-directory>
+
+	** Example: /home/jianliu/DeepRank3//bin/P6-run-DeepRank-vonorota.sh T0980s1 /home/jianliu/DeepRank3//examples/T0980s1.fasta /home/jianliu/DeepRank3//examples/T0980s1 /home/jianliu/DeepRank3//test_out/T0980s1_voronota
+
+
+################################################################# Method 9: pcons  #################################################################
+
+Usage: /home/jianliu/DeepRank3//bin/P9-run-DeepRank-pcons.sh <target id> <fasta> <model directory> <output-directory>
+
+	** Example: /home/jianliu/DeepRank3//bin/P9-run-DeepRank-pcons.sh T0980s1 /home/jianliu/DeepRank3//examples/T0980s1.fasta /home/jianliu/DeepRank3//examples/T0980s1 /home/jianliu/DeepRank3//test_out/T0980s1_pcons
+
+
+################################################################# Method 10: modfoldclust  #################################################################
+
+Usage: /home/jianliu/DeepRank3//bin/P8-run-DeepRank-ModFoldclust2.sh <target id> <fasta> <model directory> <output-directory>
+
+	** Example: /home/jianliu/DeepRank3//bin/P8-run-DeepRank-ModFoldclust2.sh T0980s1 /home/jianliu/DeepRank3//examples/T0980s1.fasta /home/jianliu/DeepRank3//examples/T0980s1 /home/jianliu/DeepRank3//test_out/T0980s1_modfoldclust
+
+
+################################################################# Method 11: Apollo  #################################################################
+
+Usage: /home/jianliu/DeepRank3//bin/P7-run-DeepRank-Apollo.sh <target id> <fasta> <model directory> <output-directory>
+
+	** Example: /home/jianliu/DeepRank3//bin/P7-run-DeepRank-Apollo.sh T0980s1 /home/jianliu/DeepRank3//examples/T0980s1.fasta /home/jianliu/DeepRank3//examples/T0980s1 /home/jianliu/DeepRank3//test_out/T0980s1_Apollo
+
+
+################################################################# Method 12: contact  #################################################################
+
+Usage: /home/jianliu/DeepRank3//bin/P11-run-DeepRank-contact.sh <target id> <fasta> <model directory> <output-directory>
+
+	** Example: /home/jianliu/DeepRank3//bin/P11-run-DeepRank-contact.sh T0980s1 /home/jianliu/DeepRank3//examples/T0980s1.fasta /home/jianliu/DeepRank3//examples/T0980s1 /home/jianliu/DeepRank3//test_out/T0980s1_contact
+
+
+################################################################# Method 13: local_ss_sa  #################################################################
+

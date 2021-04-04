@@ -1,0 +1,45 @@
+ Start install python virtual environment for keras2 (will take ~1 min)
+New python executable in python_virtualenv_keras2/bin/python2
+Also creating executable in python_virtualenv_keras2/bin/python
+Installing setuptools, pip, wheel...done.
+You are using pip version 7.1.0, however version 21.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/b7/2d/ad02de84a4c9fd3b1958dc9fb72764de1aa2605a9d7e943837be6ad82337/pip-21.0.1.tar.gz (1.5MB)
+Building wheels for collected packages: pip
+  Running setup.py bdist_wheel for pip
+  Stored in directory: /home/jianliu/.cache/pip/wheels/d9/3c/49/0725759c13b5dc65b58490b1a271b9b664912f1f43f0cfd769
+Successfully built pip
+Installing collected packages: pip
+  Found existing installation: pip 7.1.0
+    Uninstalling pip-7.1.0:
+      Successfully uninstalled pip-7.1.0
+Successfully installed pip-21.0.1
+Traceback (most recent call last):
+  File "/home/jianliu/DeepRank3/DeepRank_db_tools/tools/python_virtualenv_keras2/bin/pip", line 7, in <module>
+    from pip._internal.cli.main import main
+  File "/home/jianliu/DeepRank3/DeepRank_db_tools/tools/python_virtualenv_keras2/lib/python2.7/site-packages/pip/_internal/cli/main.py", line 60
+    sys.stderr.write(f"ERROR: {exc}")
+                                   ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/jianliu/DeepRank3/DeepRank_db_tools/tools/python_virtualenv_keras2/bin/pip", line 7, in <module>
+    from pip._internal.cli.main import main
+  File "/home/jianliu/DeepRank3/DeepRank_db_tools/tools/python_virtualenv_keras2/lib/python2.7/site-packages/pip/_internal/cli/main.py", line 60
+    sys.stderr.write(f"ERROR: {exc}")
+                                   ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/jianliu/DeepRank3/DeepRank_db_tools/tools/python_virtualenv_keras2/bin/pip", line 7, in <module>
+    from pip._internal.cli.main import main
+  File "/home/jianliu/DeepRank3/DeepRank_db_tools/tools/python_virtualenv_keras2/lib/python2.7/site-packages/pip/_internal/cli/main.py", line 60
+    sys.stderr.write(f"ERROR: {exc}")
+                                   ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/jianliu/DeepRank3/DeepRank_db_tools/tools/python_virtualenv_keras2/bin/pip", line 7, in <module>
+    from pip._internal.cli.main import main
+  File "/home/jianliu/DeepRank3/DeepRank_db_tools/tools/python_virtualenv_keras2/lib/python2.7/site-packages/pip/_internal/cli/main.py", line 60
+    sys.stderr.write(f"ERROR: {exc}")
+                                   ^
+SyntaxError: invalid syntax

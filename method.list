@@ -1,0 +1,51 @@
+### method 1
+### use '#' to deactivate DeepQA method in DeepRank system 
+DeepQA
+
+### method 2
+### use '#' to deactivate proq3 method in DeepRank system
+proq3
+
+### method 3
+### use '#' to deactivate dope method in DeepRank system
+dope
+
+### method 4
+### use '#' to deactivate SBROD method in DeepRank system
+SBROD
+
+### method 5
+### use '#' to deactivate RWplus method in DeepRank system
+RWplus
+
+### method 6
+### use '#' to deactivate RF_SRS method in DeepRank system
+RF_SRS
+
+### method 7
+### use '#' to deactivate OPUS method in DeepRank system
+OPUS
+
+### method 8
+### use '#' to deactivate voronota method in DeepRank system
+voronota
+
+### method 9
+### use '#' to deactivate pcons method in DeepRank system
+pcons
+
+### method 10
+### use '#' to deactivate modfoldclust method in DeepRank system
+modfoldclust
+
+### method 11
+### use '#' to deactivate Apollo method in DeepRank system
+Apollo
+
+### method 12
+### use '#' to deactivate contact method in DeepRank system
+contact
+
+### method 13
+### use '#' to deactivate local_ss_sa method in DeepRank system
+local_ss_sa

@@ -1,0 +1,10 @@
+.P10-run-DeepRank-SBROD.sh.default
+.P1-run-DeepRank-DeepQA.sh.default
+.P2-run-DeepRank-proq3.sh.default
+.P3-run-DeepRank-dope.sh.default
+.P4-run-DeepRank-OPUS.sh.default
+.P5-run-DeepRank-RF_SRS.sh.default
+.P6-run-DeepRank-vonorota.sh.default
+.P7-run-DeepRank-Apollo.sh.default
+.P8-run-DeepRank-ModFoldclust2.sh.default
+.P9-run-DeepRank-pcons.sh.default

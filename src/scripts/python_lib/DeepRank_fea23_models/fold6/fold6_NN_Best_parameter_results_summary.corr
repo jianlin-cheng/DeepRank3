@@ -1,0 +1,2 @@
+Parameter	Train	Test	Val
+optnadam_htsigmoid_hn5	0.907494308984375	0.946602971428572	0.851846343174603

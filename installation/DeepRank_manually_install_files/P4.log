@@ -1,0 +1,108 @@
+ Start install python virtual environment (will take ~1 min)
+New python executable in /home/jianliu/DeepRank3/DeepRank_db_tools/tools/python_virtualenv/bin/python
+Installing setuptools, pip, wheel...done.
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Requirement already up-to-date: pip in ./python_virtualenv/lib/python2.7/site-packages (20.3.4)
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Requirement already up-to-date: numpy==1.12.1 in ./python_virtualenv/lib/python2.7/site-packages (1.12.1)
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Requirement already up-to-date: keras==1.2.2 in ./python_virtualenv/lib/python2.7/site-packages (1.2.2)
+Requirement already satisfied, skipping upgrade: six in ./python_virtualenv/lib/python2.7/site-packages (from keras==1.2.2) (1.15.0)
+Requirement already satisfied, skipping upgrade: pyyaml in ./python_virtualenv/lib/python2.7/site-packages (from keras==1.2.2) (5.4.1)
+Requirement already satisfied, skipping upgrade: theano in ./python_virtualenv/lib/python2.7/site-packages (from keras==1.2.2) (0.9.0)
+Requirement already satisfied, skipping upgrade: numpy>=1.9.1 in ./python_virtualenv/lib/python2.7/site-packages (from theano->keras==1.2.2) (1.12.1)
+Requirement already satisfied, skipping upgrade: scipy>=0.14 in ./python_virtualenv/lib/python2.7/site-packages (from theano->keras==1.2.2) (1.2.3)
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Requirement already up-to-date: theano==0.9.0 in ./python_virtualenv/lib/python2.7/site-packages (0.9.0)
+Requirement already satisfied, skipping upgrade: six>=1.9.0 in ./python_virtualenv/lib/python2.7/site-packages (from theano==0.9.0) (1.15.0)
+Requirement already satisfied, skipping upgrade: numpy>=1.9.1 in ./python_virtualenv/lib/python2.7/site-packages (from theano==0.9.0) (1.12.1)
+Requirement already satisfied, skipping upgrade: scipy>=0.14 in ./python_virtualenv/lib/python2.7/site-packages (from theano==0.9.0) (1.2.3)
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Requirement already up-to-date: h5py in ./python_virtualenv/lib/python2.7/site-packages (2.10.0)
+Requirement already satisfied, skipping upgrade: numpy>=1.7 in ./python_virtualenv/lib/python2.7/site-packages (from h5py) (1.12.1)
+Requirement already satisfied, skipping upgrade: six in ./python_virtualenv/lib/python2.7/site-packages (from h5py) (1.15.0)
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Requirement already up-to-date: matplotlib in ./python_virtualenv/lib/python2.7/site-packages (2.2.5)
+Requirement already satisfied, skipping upgrade: cycler>=0.10 in ./python_virtualenv/lib/python2.7/site-packages (from matplotlib) (0.10.0)
+Requirement already satisfied, skipping upgrade: six>=1.10 in ./python_virtualenv/lib/python2.7/site-packages (from matplotlib) (1.15.0)
+Requirement already satisfied, skipping upgrade: pytz in ./python_virtualenv/lib/python2.7/site-packages (from matplotlib) (2021.1)
+Requirement already satisfied, skipping upgrade: numpy>=1.7.1 in ./python_virtualenv/lib/python2.7/site-packages (from matplotlib) (1.12.1)
+Requirement already satisfied, skipping upgrade: kiwisolver>=1.0.1 in ./python_virtualenv/lib/python2.7/site-packages (from matplotlib) (1.1.0)
+Requirement already satisfied, skipping upgrade: python-dateutil>=2.1 in ./python_virtualenv/lib/python2.7/site-packages (from matplotlib) (2.8.1)
+Requirement already satisfied, skipping upgrade: subprocess32 in ./python_virtualenv/lib/python2.7/site-packages (from matplotlib) (3.5.4)
+Requirement already satisfied, skipping upgrade: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in ./python_virtualenv/lib/python2.7/site-packages (from matplotlib) (2.4.7)
+Requirement already satisfied, skipping upgrade: backports.functools-lru-cache in ./python_virtualenv/lib/python2.7/site-packages (from matplotlib) (1.6.3)
+Requirement already satisfied, skipping upgrade: setuptools in ./python_virtualenv/lib/python2.7/site-packages (from kiwisolver>=1.0.1->matplotlib) (44.1.1)
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Collecting pandas
+  Using cached pandas-0.24.2.tar.gz (11.8 MB)
+Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in ./python_virtualenv/lib/python2.7/site-packages (from pandas) (2.8.1)
+Requirement already satisfied, skipping upgrade: pytz>=2011k in ./python_virtualenv/lib/python2.7/site-packages (from pandas) (2021.1)
+Requirement already satisfied, skipping upgrade: numpy>=1.12.0 in ./python_virtualenv/lib/python2.7/site-packages (from pandas) (1.12.1)
+Requirement already satisfied, skipping upgrade: six>=1.5 in ./python_virtualenv/lib/python2.7/site-packages (from python-dateutil>=2.5.0->pandas) (1.15.0)
+Building wheels for collected packages: pandas
+  Building wheel for pandas (setup.py): started
+  Building wheel for pandas (setup.py): still running...
+  Building wheel for pandas (setup.py): still running...
+  Building wheel for pandas (setup.py): still running...
+  Building wheel for pandas (setup.py): still running...
+  Building wheel for pandas (setup.py): still running...
+  Building wheel for pandas (setup.py): still running...
+  Building wheel for pandas (setup.py): finished with status 'done'
+  Created wheel for pandas: filename=pandas-0.24.2-cp27-cp27m-linux_x86_64.whl size=24502234 sha256=42070b178d3b07aac82e5b34a8a7b1e2580067c990aba87dc2c75fb756c1a570
+  Stored in directory: /home/jianliu/.cache/pip/wheels/5f/b4/0b/b1670f56250abdd8f7f200c1a63fbb96e2132f2ed7ee1f8b71
+Successfully built pandas
+Installing collected packages: pandas
+Successfully installed pandas-0.24.2
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Collecting sklearn
+  Using cached sklearn-0.0.tar.gz (1.1 kB)
+Collecting scikit-learn
+  Downloading scikit_learn-0.20.4-cp27-cp27m-manylinux1_x86_64.whl (5.5 MB)
+Requirement already satisfied, skipping upgrade: scipy>=0.13.3 in ./python_virtualenv/lib/python2.7/site-packages (from scikit-learn->sklearn) (1.2.3)
+Requirement already satisfied, skipping upgrade: numpy>=1.8.2 in ./python_virtualenv/lib/python2.7/site-packages (from scikit-learn->sklearn) (1.12.1)
+Building wheels for collected packages: sklearn
+  Building wheel for sklearn (setup.py): started
+  Building wheel for sklearn (setup.py): finished with status 'done'
+  Created wheel for sklearn: filename=sklearn-0.0-py2.py3-none-any.whl size=1315 sha256=87095e951753adc4d2cbbba7e7ebccef9fb169b109623a127fb753d355cec597
+  Stored in directory: /home/jianliu/.cache/pip/wheels/92/41/c1/46aa0ff43ae6274c41ffea0abc81426980f263d53d30fbc7b9
+Successfully built sklearn
+Installing collected packages: scikit-learn, sklearn
+Successfully installed scikit-learn-0.20.4 sklearn-0.0
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Collecting plotly
+  Downloading plotly-4.14.3-py2.py3-none-any.whl (13.2 MB)
+Requirement already satisfied, skipping upgrade: six in ./python_virtualenv/lib/python2.7/site-packages (from plotly) (1.15.0)
+Collecting retrying>=1.3.3
+  Downloading retrying-1.3.3.tar.gz (10 kB)
+Building wheels for collected packages: retrying
+  Building wheel for retrying (setup.py): started
+  Building wheel for retrying (setup.py): finished with status 'done'
+  Created wheel for retrying: filename=retrying-1.3.3-py2-none-any.whl size=11429 sha256=eba0869b585531440867dd2c00abf1db36b71e1fdd6851157886aa7ae623ada6
+  Stored in directory: /home/jianliu/.cache/pip/wheels/fa/24/c3/9912f4c9363033bbd0eafbec1b27c65b04d7ea6acd312876b0
+Successfully built retrying
+Installing collected packages: retrying, plotly
+Successfully installed plotly-4.14.3 retrying-1.3.3
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Collecting np_utils
+  Downloading np_utils-0.5.12.1.tar.gz (61 kB)
+Requirement already satisfied, skipping upgrade: numpy>=1.0 in ./python_virtualenv/lib/python2.7/site-packages (from np_utils) (1.12.1)
+Collecting future>=0.16
+  Downloading future-0.18.2.tar.gz (829 kB)
+Building wheels for collected packages: np-utils, future
+  Building wheel for np-utils (setup.py): started
+  Building wheel for np-utils (setup.py): finished with status 'done'
+  Created wheel for np-utils: filename=np_utils-0.5.12.1-py2-none-any.whl size=57124 sha256=a4a328d5b0852eb72c38261a2b028c4b05db07edc2d53e260f6c239188c6f223
+  Stored in directory: /home/jianliu/.cache/pip/wheels/eb/4f/c6/cab4890bab8cafcf286d4b4f0b54a50a235d6baad24568fc08
+  Building wheel for future (setup.py): started
+  Building wheel for future (setup.py): finished with status 'done'
+  Created wheel for future: filename=future-0.18.2-py2-none-any.whl size=502566 sha256=7f18148f38c031575cfdb3b74b4e903753cde6b0aba1ce17cc10cc3d810849af
+  Stored in directory: /home/jianliu/.cache/pip/wheels/5f/11/0c/aad680baf5ef4fbcbab992c9f03e1130357e0c173a4fdabfff
+Successfully built np-utils future
+Installing collected packages: future, np-utils
+Successfully installed future-0.18.2 np-utils-0.5.12.1
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Collecting pillow
+  Downloading Pillow-6.2.2-cp27-cp27m-manylinux1_x86_64.whl (2.1 MB)
+Installing collected packages: pillow
+Successfully installed pillow-6.2.2

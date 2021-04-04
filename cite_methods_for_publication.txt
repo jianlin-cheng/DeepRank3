@@ -1,0 +1,48 @@
+### method 1
+APOLLO
+Wang Z, Eickholt J, Cheng J. APOLLO: a quality assessment service for single and multiple protein models. Bioinformatics 2011;27:1715-1716.
+
+### method 2
+SBROD
+Karasikov M, Pagès G, Grudinin S. Smooth orientation-dependent scoring function for coarse-grained protein quality assessment. Bioinformatics 2019;35:2801-2808.
+
+### method 3
+RWplus
+Rykunov D, Fiser A. Effects of amino acid composition, finite size of proteins, and sparse statistics on distance‐dependent statistical pair potentials. Proteins: Structure, Function, and Bioinformatics 2007;67:559-568.
+
+### method 4
+Voronota
+Olechnovič K, Venclovas Č. Voronota: a fast and reliable tool for computing the vertices of the Voronoi diagram of atomic balls. Journal of computational chemistry 2014;35:672-681.
+
+### method 5
+dope
+Shen My, Sali A. Statistical potential for assessment and prediction of protein structures. Protein science 2006;15:2507-2524.
+
+### method 6
+OPUS-PSP
+Lu M, Dousis AD, Ma J. OPUS-PSP: an orientation-dependent statistical all-atom potential derived from side-chain packing. Journal of molecular biology 2008;376:288-301.
+34. Xu D, Jaroszewski L, Li Z, et al. AIDA: ab initio domain assembly server. Nucleic acids research 2014;42:W308-W313.
+
+### method 7
+DeepQA
+Cao R, Bhattacharya D, Hou J, et al. DeepQA: improving the estimation of single protein model quality with deep belief networks. BMC bioinformatics 2016;17:495.
+
+### method 8
+ProQ2
+Ray A, Lindahl E, Wallner B. Improved model quality assessment using ProQ2. BMC bioinformatics 2012;13:224.
+
+### method 9
+ProQ3
+Uziela K, Shu N, Wallner B, et al. ProQ3: Improved model quality assessments using Rosetta energy terms. Scientific reports 2016;6:1-10.
+
+### method 10
+Pcons
+Lundström J, Rychlewski L, Bujnicki J, et al. Pcons: A neural‐network–based consensus predictor that improves fold recognition. Protein Science 2001;10:2354-2362.
+
+### method 11
+ModFOLDcluster2
+McGuffin LJ, Roche DB. Rapid model quality assessment for protein structure predictions using the comparison of multiple models without structural alignments. Bioinformatics 2010;26:182-188.
+
+### method 12
+DistRank, DNCON4, deepdist
+Wu T, Guo Z, Hou J, et al. DeepDist: real-value inter-residue distance prediction with deep residual network. bioRxiv 2020.
