@@ -1,15 +1,4 @@
-### DeepRank
-
-
-
-## dncon2
-tools/DNCON2/dncon2-v1.0.sh
-tools/DNCON2/scripts/dncon2-main.pl
-tools/DNCON2/metapsicov/runpsipredandsolv
-tools/DNCON2/scripts/aln-hhblits-jhmmer.pl
-tools/DNCON2/scripts/generate-alignments.pl
-tools/DNCON2/scripts/jackhammer_aln.pl
-tools/DNCON2/scripts/run-ccmpred-freecontact-psicov.pl
+### DeepRank3
 
 
 ## proq3
