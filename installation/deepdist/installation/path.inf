@@ -1,0 +1,20 @@
+## FLAG path of DeepDist database commone folder
+DeepDist_db_dir=/home/jianliu/github/DeepRank3/DeepRank_db_tools/tools/deepdist
+
+## FLAG path of DeepDist database 
+uniref90_version=uniref
+metaclust50_version=Metaclust_2018_06
+hhsuitedb_version=UniRef30_2020_01
+ebi_uniref100_version=myg_uniref100_01_2020
+
+## path of runfile script
+DeepDist_run_file =/lib
+
+## path of pred_example script
+DeepDist_pred_example=/predictors/ensemble/example
+
+## path of pred_ensemble script
+DeepDist_pred_ensemble=/predictors/ensemble
+
+## path of pred_individual script
+DeepDist_pred_individual=/predictors/individual

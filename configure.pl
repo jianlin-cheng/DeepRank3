@@ -91,8 +91,8 @@ if (prompt_yn("DeepRank will be installed into <$install_dir> ")){
 print "Start install DeepRank into <$install_dir>\n"; 
 
 print "\n#########Configuring tools\n";
--d "${install_dir}tools/DistRank"  || `mv ${install_dir}installation/DistRank ${install_dir}tools`;
-
+-d "${install_dir}tools/DistRank"  || `cp -r ${install_dir}installation/DistRank ${install_dir}tools`;
+-d "${install_dir}tools/deepdist" || `cp -r ${install_dir}installation/deepdist ${install_dir}tools`;
 print "\n#########Configuring scripts\n";
 
 $option_list = "$install_dir/installation/DeepRank_configure_files/DeepRank_scripts_list";

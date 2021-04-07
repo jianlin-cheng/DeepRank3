@@ -1299,7 +1299,7 @@ for($i = 0; $i < @tools; $i++)
 							my($ren_deepdist_features)=$TMP_output."/deepdist";
 							-d "$ren_deepdist_features" || `mkdir $ren_deepdist_features`;
 							$res = "$LOG_output/deepdist.is_running";
-							$cmd = "sh $H_tool/deepdist/predictors/ensemble/pred_deepdist_v1.sh  $fasta_seq  $ren_deepdist_features";
+							$cmd = "sh $H_tool/deepdist/predictors/ensemble/pred_deepdist1.sh  $fasta_seq  $ren_deepdist_features";
 							$OUT = new FileHandle ">$res";
 							print $OUT "19. generating deepdist score\n   $cmd \n\n";
 							print  "19. generating deepdist score\n   $cmd \n\n";

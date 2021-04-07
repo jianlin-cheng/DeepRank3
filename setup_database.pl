@@ -450,44 +450,6 @@ if(!(-e $method_file) or !(-e $method_info))
 	}
 }
 
-chdir($tools_dir);
-$basic_tools_list = "deepdist.tar.gz";
-@basic_tools = split(';',$basic_tools_list);
-foreach $tool (@basic_tools)
-{
-	$toolname = substr($tool,0,index($tool,'.tar.gz'));
-	if(-d "$tools_dir/$toolname")
-	{
-		if(-e "$tools_dir/$toolname/download.done")
-		{
-			print "\t$toolname is done!\n";
-			next;
-		}
-	}elsif(-f "$tools_dir/$toolname")
-	{
-			print "\t$toolname is done!\n";
-			next;
-	}
-	if(-e $tool)
-	{
-		 `rm $tool`;
-	}
-	`wget http://daisy.rnet.missouri.edu/multicom_db_tools/multicom2/tools/$tool`;
-	if(-e "$tool")
-	{
-		print "\n\t$tool is found, start extracting files......\n\n";
-		`tar -zxf $tool`;
-		if(-d $toolname)
-		{
-			`echo 'done' > $toolname/download.done`;
-		}
-		`rm $tool`;
-		`chmod -R 755 $toolname`;
-	}else{
-		die "Failed to download $tool from http://daisy.rnet.missouri.edu/multicom_db_tools/multicom2/tools/, please contact chengji\@missouri.edu\n";
-	}
-}
-
 
 print "\n#########  (1) Configuring tools\n";
 

@@ -78,6 +78,8 @@ d. vi lib/Model_predict.py
 ```
 cd ../DistRank
 
+mkdir env
+
 python configure.py
 
 sh installation/set_env.sh
