@@ -109,6 +109,8 @@ print OUT "cp $install_dir/installation/DeepRank_configure_files/keras_DeepRank.
 print OUT "#rm -rf python_virtualenv\n\n";
 print OUT "virtualenv python_virtualenv\n\n";
 print OUT "source $DeepRank_db_tools_dir/tools/python_virtualenv/bin/activate\n\n";
+print OUT "#curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py";
+print OUT "#python get-pip.py";
 print OUT "pip install --upgrade pip\n\n";
 print OUT "pip install --upgrade numpy==1.12.1\n\n";
 print OUT "pip install --upgrade keras==1.2.2\n\n";

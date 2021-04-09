@@ -37,7 +37,18 @@ c. save configure.pl
 perl configure.pl
 ```
 
-**(4) Set theano as backend for keras (required)**
+**(4) Check whether your python environment is installed successfully (required)**
+
+```
+source DeepRank_db_tools/tools/python_virtualenv/bin/activate
+```
+
+**(4a) If not, use following command to manually install**
+```
+sh installation/DeepRank_manually_install_files/P4_python_virtual.sh
+```
+
+**(5) Set theano as backend for keras (required)**
 
 Change the contents in '~/.keras/keras.json'.
 ```
@@ -53,7 +64,7 @@ $ vi ~/.keras/keras.json
 }
 ```
 
-**(5) Activate your python3.6 environment and manually install deepdist tool**
+**(6) Activate your python3.6 environment and manually install deepdist tool**
 
 ```
 cd tools/deepdist
@@ -63,17 +74,9 @@ a. python setup.py
 b. python configure.py
 
 c. sh installation/set_env.sh
-
-d. vi lib/Model_predict.py
-
-   add codes after import os,glob,re (line 9):
-   
-   os.environ['KERAS_BACKEND'] = 'tensorflow'
-   
-   save lib/Model_predict.py
 ```
 
-**(6) Manually install DistRank tool**
+**(7) Manually install DistRank tool**
 
 ```
 cd ../DistRank
