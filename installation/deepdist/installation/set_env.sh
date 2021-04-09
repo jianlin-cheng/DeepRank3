@@ -11,7 +11,8 @@ python3 -m venv deepdist_virenv
 source $env_dir/deepdist_virenv/bin/activate
 pip install --upgrade pip
 pip install keras==2.1.6
-pip install numpy==1.15.2
+#pip install numpy==1.15.2
+pip install numpy
 pip install matplotlib
 pip install scipy
 pip install numba
@@ -32,8 +33,8 @@ else
         pip install tensorflow==1.5.0
 fi
 pip install --upgrade pillow
-mkdir -p ~/.keras
-cp ~/.keras/keras.json ~/.keras/keras.json.bk
-cp $gloable_dir/installation/keras.json.dncon4 ~/.keras/keras.json
+# mkdir -p ~/.keras
+# cp ~/.keras/keras.json ~/.keras/keras.json.bk
+# cp $gloable_dir/installation/keras.json.dncon4 ~/.keras/keras.json
 echo "installed" > $env_dir/env_vir.done
 echo virtual environment installed succesful!
