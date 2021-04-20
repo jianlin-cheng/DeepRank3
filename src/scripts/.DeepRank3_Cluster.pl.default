@@ -400,10 +400,10 @@ if(-e "$ALL_scores/feature_dncon4_short-range.$targetname" and -e "$ALL_scores/f
 
 }
 
-if(-d "$dir_output/mod2")
-{
-	`rm -rf $dir_output/mod2`;
-}
+#if(-d "$dir_output/mod2")
+#{
+#	`rm -rf $dir_output/mod2`;
+#}
 print "\nFinal prediction: $dir_output/DeepRank3_Cluster.txt\n\n";
 
 $DeepRank_finishtime = time();

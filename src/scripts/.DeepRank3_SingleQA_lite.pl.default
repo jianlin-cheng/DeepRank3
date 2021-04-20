@@ -408,10 +408,10 @@ while($check_iteration<4)
 
 #}
 
-if(-d "$dir_output/mod2")
-{
-	`rm -rf $dir_output/mod2`;
-}
+#if(-d "$dir_output/mod2")
+#{
+#	`rm -rf $dir_output/mod2`;
+#}
 print "\nFinal prediction: $dir_output/DeepRank3_SingleQA_lite.txt\n\n";
 
 $DeepRank_finishtime = time();
