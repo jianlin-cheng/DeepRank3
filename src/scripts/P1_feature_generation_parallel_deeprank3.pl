@@ -17,7 +17,7 @@
 
 
  ############## Revise the path ########################
-$DeepRank_install = "/home/jianliu/DeepRank3/";
+$DeepRank_install = "/home/jianliu/github/DeepRank3/";
 $H_script = "$DeepRank_install/src/scripts";
 $H_tool = "$DeepRank_install/tools";
 
@@ -72,17 +72,6 @@ my($LOG_output) = $dir_output."/"."LOG";
  
 ### mention here, we change the working directory to $TMP_output !
 chdir($TMP_output);
-
-
-if(-e "$dncon4file")
-{
-    `cp $dncon4file $TMP_output/$targetname.dncon4.rr`;
-}
-
-if(-e "$distfile")
-{
-    `cp $distfile $TMP_output/$targetname.distmap`;
-}
 
 ## write out the fasta file
 $|=1;
@@ -233,6 +222,16 @@ $ren_dist_phash=$TMP_output."/"."feature_dist_phash.".$targetname;
 $ren_dist_recall=$TMP_output."/"."feature_dist_recall.".$targetname;
 $ren_dist_rmse=$TMP_output."/"."feature_dist_rmse.".$targetname;
 $ren_dist_ssim=$TMP_output."/"."feature_dist_ssim.".$targetname;
+
+if(-e "$dncon4file")
+{
+    `cp $dncon4file $ren_dncon4_features/$targetname.dncon4.rr`;
+}
+
+if(-e "$distfile")
+{
+    `cp $distfile $TMP_output/$targetname.distmap`;
+}
 
 $tools2		="OPUS,local_global,RF_SRS,RWplus,dope,modfoldclust2,pcons,pairwise,voronota,DeepQA,Proq3,SBROD,deepdist";
 @tools		=split(/,/,$tools2);
@@ -1200,7 +1199,7 @@ for($i = 0; $i < @tools; $i++)
 							my($ren_deepdist_features)=$TMP_output."/deepdist";
 							-d "$ren_deepdist_features" || `mkdir $ren_deepdist_features`;
 							$res = "$LOG_output/deepdist.is_running";
-							$cmd = "sh $H_tool/deepdist/predictors/ensemble/pred_deepdist_v1.sh  $fasta_seq  $ren_deepdist_features";
+							$cmd = "sh $H_tool/deepdist/predictors/ensemble/pred_deepdist1.sh  $fasta_seq  $ren_deepdist_features";
 							$OUT = new FileHandle ">$res";
 							print $OUT "19. generating deepdist score\n   $cmd \n\n";
 							print  "19. generating deepdist score\n   $cmd \n\n";
