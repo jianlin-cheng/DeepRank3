@@ -193,7 +193,7 @@ foreach $tool (@basic_tools)
 	{
 		 `rm $tool`;
 	}
-	`wget http://sysbio.rnet.missouri.edu/bdm_download/DeepRank_db_tools/tools/$tool`;
+	`wget http://sysbio.rnet.missouri.edu/multicom_cluster/DeepRank_db_tools/tools/$tool`;
 	if(-e "$tool")
 	{
 		print "\n\t$tool is found, start extracting files......\n\n";
@@ -205,7 +205,7 @@ foreach $tool (@basic_tools)
 		`rm $tool`;
 		`chmod -R 755 $toolname`;
 	}else{
-		die "Failed to download $tool from http://sysbio.rnet.missouri.edu/bdm_download/DeepRank_db_tools/tools, please contact chengji\@missouri.edu\n";
+		die "Failed to download $tool from http://sysbio.rnet.missouri.edu/multicom_cluster/DeepRank_db_tools/tools, please contact chengji\@missouri.edu\n";
 	}
 }
 
@@ -282,7 +282,7 @@ if(!(-e $method_file) or !(-e $method_info))
 				{
 					`rm $tool`;
 				}
-				`wget http://sysbio.rnet.missouri.edu/bdm_download/DeepRank_db_tools/tools/$tool`;
+				`wget http://sysbio.rnet.missouri.edu/multicom_cluster/DeepRank_db_tools/tools/$tool`;
 				if(-e "$tool")
 				{
 					print "\n\t\t$tool is found, start extracting files......\n\n";
@@ -296,7 +296,7 @@ if(!(-e $method_file) or !(-e $method_info))
 					`rm $tool`;
 					`chmod -R 755 $toolname`;
 				}else{
-					die "Failed to download $tool from http://sysbio.rnet.missouri.edu/bdm_download/DeepRank_db_tools/tools, please contact chengji\@missouri.edu\n";
+					die "Failed to download $tool from http://sysbio.rnet.missouri.edu/multicom_cluster/DeepRank_db_tools/tools, please contact chengji\@missouri.edu\n";
 				}
 			}
 			
@@ -432,7 +432,7 @@ if(!(-e $method_file) or !(-e $method_info))
 				{
 					`rm $db`;
 				}
-				`wget http://sysbio.rnet.missouri.edu/bdm_download/DeepRank_db_tools/databases/$db`;
+				`wget http://sysbio.rnet.missouri.edu/multicom_cluster/DeepRank_db_tools/databases/$db`;
 				if(-e "$db")
 				{
 					print "\t\t$db is found, start extracting files......\n\n";
@@ -442,7 +442,7 @@ if(!(-e $method_file) or !(-e $method_info))
 					`rm $db`;
 					`chmod -R 755 $dbname`;
 				}else{
-					die "Failed to download $db from http://sysbio.rnet.missouri.edu/bdm_download/DeepRank_db_tools/databases, please contact chengji\@missouri.edu\n";
+					die "Failed to download $db from http://sysbio.rnet.missouri.edu/multicom_cluster/DeepRank_db_tools/databases, please contact chengji\@missouri.edu\n";
 				} 
 			}
 			
@@ -667,7 +667,7 @@ if(-d "$DeepRank_db_tools_dir/tools/proq3/")
 	chdir("$DeepRank_db_tools_dir/tools/proq3/");
 	if(!-e "zoo_1.8-2.tar.gz")
 	{
-		`wget http://sysbio.rnet.missouri.edu/bdm_download/DeepRank_db_tools/tools/zoo_1.8-2.tar.gz`;
+		`wget http://sysbio.rnet.missouri.edu/multicom_cluster/DeepRank_db_tools/tools/zoo_1.8-2.tar.gz`;
 	}
 	open(TMPO,">$DeepRank_db_tools_dir/tools/proq3/install_zoo.R");
 	print TMPO "install.packages(\"$DeepRank_db_tools_dir/tools/proq3/zoo_1.8-2.tar.gz\")\n\n";
@@ -840,6 +840,7 @@ sub configure_file2{
 	}
 	close IN;
 }
+
 
 
 
