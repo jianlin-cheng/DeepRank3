@@ -159,15 +159,20 @@ sh bin/DeepRank3_SingleQA_lite.sh T0953s1 examples/T0953s1.fasta examples/T0953s
 ## 🧾 Citation
 If you use **DeepRank3** or its components in your research, please cite the corresponding methods listed in:
 ```
+
+@article{liu2022improving,
+  title={Improving protein tertiary structure prediction by deep learning and distance prediction in CASP14},
+  author={Liu, Jian and Wu, Tianqi and Guo, Zhiye and Hou, Jie and Cheng, Jianlin},
+  journal={Proteins: Structure, Function, and Bioinformatics},
+  volume={90},
+  number={1},
+  pages={58--72},
+  year={2022},
+  publisher={Wiley Online Library}
+}
+
 cite_methods_for_publication.txt
 ```
-
----
-
-## 🧑‍💻 Authors
-**Developed by:**  
-[**Jianlin Cheng Lab**](http://sysbio.rnet.missouri.edu)  
-University of Missouri, Columbia
 
 ---
 
