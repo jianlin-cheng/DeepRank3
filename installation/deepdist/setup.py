@@ -169,11 +169,11 @@ def download_nr(db_tools_dir,tools_dir,identity):
     else:
         if os.path.exists("nr"+identity+"-2016.tar.gz"):
             os.system("rm nr"+identity+"-2016.tar.gz")
-        os.system("wget http://sysbio.rnet.missouri.edu/dncon4_db_tools/databases/nr"+identity+"-2016.tar.gz")
+        os.system("wget http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/databases/nr"+identity+"-2016.tar.gz")
         if os.path.exists("nr"+identity+"-2016.tar.gz"):
             print("\tnr"+identity+"-2016.tar.gz is found, start extracting files")
         else:
-            print("Failed to download nr"+identity+" from http://sysbio.rnet.missouri.edu/dncon4_db_tools/databases/nr"+identity+"-2016.tar.gz")
+            print("Failed to download nr"+identity+" from http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/databases/nr"+identity+"-2016.tar.gz")
             sys.exit(1)
         os.system("tar zxvf nr"+identity+"-2016.tar.gz && rm "+identity+"-2016.tar.gz")
         os.system(tools_dir+"/blast-2.2.26/bin/formatdb -i nr"+identity+" -o T -t nr"+identity+" -n nr"+identity)
@@ -194,11 +194,11 @@ def download_uniref90(db_tools_dir,version,db_dir=""):
     else:
         if os.path.exists(version+".tar.gz"):
             os.system("rm "+version+".tar.gz")
-        os.system("wget http://sysbio.rnet.missouri.edu/dncon4_db_tools/databases/"+version+".tar.gz")
+        os.system("wget http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/databases/"+version+".tar.gz")
         if os.path.exists(version+".tar.gz"):
             print("\tuniref90 is found, start extracting files")
         else:
-            print("Failed to download uniref90 from http://sysbio.rnet.missouri.edu/dncon4_db_tools/databases/"+version+".tar.gz")
+            print("Failed to download uniref90 from http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/databases/"+version+".tar.gz")
             sys.exit(1)
         os.system("tar zxvf "+version+".tar.gz && rm "+version+".tar.gz")
         #os.system("mv uniref"+identity+".fasta uniref"+identity)
@@ -256,11 +256,11 @@ def download_ebi_uniref100(db_tools_dir,version,db_dir=""):
     else:
         if os.path.exists(version+".tar.gz"):
             os.system("rm "+version+".tar.gz")
-        os.system("wget http://sysbio.rnet.missouri.edu/dncon4_db_tools/databases/"+version+".tar.gz")
+        os.system("wget http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/databases/"+version+".tar.gz")
         if os.path.exists(version+".tar.gz"):
             print("\tmyg_uniref100 is found, start extracting files")
         else:
-            print("Failed to download myg_uniref100 from http://sysbio.rnet.missouri.edu/dncon4_db_tools/databases/"+version+".tar.gz")
+            print("Failed to download myg_uniref100 from http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/databases/"+version+".tar.gz")
             sys.exit(1)
         os.system("tar zxvf "+version+".tar.gz && rm "+version+".tar.gz")
         os.system("mv " + version + "/* .")
@@ -563,7 +563,7 @@ if __name__ == '__main__':
     else:
         os.system("touch "+install_dir+"/metapsicov.running")
         tool = "metapsicov.tar.gz"
-        address = "http://sysbio.rnet.missouri.edu/dncon4_db_tools/tools/metapsicov.tar.gz"
+        address = "http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/tools/metapsicov.tar.gz"
         direct_download(tool, address, tools_dir)
         os.system("mv "+install_dir+"/metapsicov.running "+install_dir+"/metapsicov.done")
         print(install_dir+"/metapsicov installed")
@@ -585,7 +585,7 @@ if __name__ == '__main__':
     else:
         os.system("touch "+install_dir+"/CCMpred_plm.running")
         tool = "CCMpred_plm.tar.gz"
-        address = "http://sysbio.rnet.missouri.edu/dncon4_db_tools/tools/CCMpred_plm.tar.gz"
+        address = "http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/tools/CCMpred_plm.tar.gz"
         direct_download(tool, address, tools_dir)
         os.system("mv "+install_dir+"/CCMpred_plm.running "+install_dir+"/CCMpred_plm.done")
         print(install_dir+"/CCMpred_plm installed")
@@ -596,7 +596,7 @@ if __name__ == '__main__':
     # else:
         # os.system("touch "+install_dir+"/CCMpred.running")
         # tool = "CCMpred.tar.gz"
-        # address = "http://sysbio.rnet.missouri.edu/dncon4_db_tools/tools/CCMpred.tar.gz"
+        # address = "http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/tools/CCMpred.tar.gz"
         # direct_download(tool, address, tools_dir)
         # os.system("mv "+install_dir+"/CCMpred.running "+install_dir+"/CCMpred.done")
         # print(install_dir+"/CCMpred installed")
@@ -634,7 +634,7 @@ if __name__ == '__main__':
     else:
         os.system("touch "+install_dir+"/DeepAlign1.0.running")
         tool = "DeepAlign1.0.tar.gz"
-        address = "http://sysbio.rnet.missouri.edu/dncon4_db_tools/tools/DeepAlign1.0.tar.gz"
+        address = "http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/tools/DeepAlign1.0.tar.gz"
         direct_download(tool, address, tools_dir)
         os.system("mv "+install_dir+"/DeepAlign1.0.running "+install_dir+"/DeepAlign1.0.done")
         print(install_dir+"/DeepAlign1.0 installed")
@@ -646,7 +646,7 @@ if __name__ == '__main__':
         os.system("touch "+install_dir+"/DeepMSA.running")
         tool = "deepmsa.tar.gz"
         #address = "https://zhanglab.ccmb.med.umich.edu/DeepMSA/package.zip"
-        address = "http://sysbio.rnet.missouri.edu/dncon4_db_tools/tools/deepmsa.tar.gz"
+        address = "http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/tools/deepmsa.tar.gz"
         direct_download(tool, address, tools_dir)
         os.system("mv "+install_dir+"/DeepMSA.running "+install_dir+"/DeepMSA.done")
         print(install_dir+"/DeepMSA installed")
@@ -660,7 +660,7 @@ if __name__ == '__main__':
         # if os.path.exists(tools_dir+"/nncon1.0_64bit"):
             # os.system("rm -r "+tools_dir+"/nncon1.0_64bit")
         # tool = "nncon1.0_64bit.tar.gz"
-        # address = "http://sysbio.rnet.missouri.edu/dncon4_db_tools/tools/nncon1.0_64bit.tar.gz"
+        # address = "http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/tools/nncon1.0_64bit.tar.gz"
         # direct_download(tool, address, tools_dir)
         # os.chdir(tools_dir+"/nncon1.0_64bit")
         # os.system("ln -s "+database_dir+"/nr "+tools_dir+"/nncon1.0_64bit/nr ")
@@ -679,7 +679,7 @@ if __name__ == '__main__':
         # if os.path.exists(tools_dir+"/betacon_64bit_standalone"):
             # os.system("rm -r "+tools_dir+"/betacon_64bit_standalone")
         # tool = "betacon_64bit_standalone.tar.gz"
-        # address = "http://sysbio.rnet.missouri.edu/dncon4_db_tools/tools/betacon_64bit_standalone.tar.gz"
+        # address = "http://sysbio.rnet.missouri.edu/multicom_cluster/dncon4_db_tools/tools/betacon_64bit_standalone.tar.gz"
         # direct_download(tool, address, tools_dir)
         # os.chdir(tools_dir+"/betacon_64bit_standalone")
         # os.system("ln -s "+database_dir+"/uniref90 "+tools_dir+"/betacon_64bit_standalone/databases/uniref90 ")
