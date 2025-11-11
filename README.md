@@ -23,16 +23,25 @@ git clone https://github.com/jianlin-cheng/DeepRank3.git
 git clone https://huge200890@github.com/jianlin-cheng/DeepRank3.git
 
 cd DeepRank3
+
+wget "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+bash Mambaforge-$(uname)-$(uname -m).sh  # accept all terms and install to the default location
+rm Mambaforge-$(uname)-$(uname -m).sh  # (optionally) remove installer after using it
+source ~/.bashrc  # alternatively, one can restart their shell session to achieve the same result
 ```
 
 ---
 
-<details>
-<summary>🧰 <b>2. Setup Database and Tools (Required)</b></summary>
+## 🧰 2. Setup Database and Tools
 
-Activate your **Python 2.7** environment first.
+### a. Install python2.7 environment
 
-### a. Edit `setup_database.pl`
+```
+mamba create python27 python=2.7
+mamba activate python27
+```
+
+### b. Edit `setup_database.pl`
 1. Create a directory for databases:
    ```bash
    mkdir -p /data/commons/DeepRank_db_tools/
@@ -42,19 +51,17 @@ Activate your **Python 2.7** environment first.
    $DeepRank_db_tools_dir = "/data/commons/DeepRank_db_tools/";
    ```
 
-### b. Run setup
+### c. Run setup
 ```bash
 perl setup_database.pl
 ```
 
 > 📘 Please refer to **`cite_methods_for_publication.txt`** for citation guidelines.  
 > All external tools can also be downloaded from their respective official websites.
-</details>
 
 ---
 
-<details>
-<summary>⚙️ <b>3. Configure DeepRank3 (Required)</b></summary>
+## ⚙️ 3. Configure DeepRank3
 
 ### a. Edit `configure.pl`
 Set the same database path used above:
@@ -66,12 +73,10 @@ $DeepRank_db_tools_dir = "/data/commons/DeepRank_db_tools/";
 ```bash
 perl configure.pl
 ```
-</details>
 
 ---
 
-<details>
-<summary>🐍 <b>4. Verify Python Environment (Required)</b></summary>
+## 🐍 4. Verify Python Environment
 
 Activate the virtual environment:
 ```bash
@@ -86,8 +91,7 @@ sh installation/DeepRank_manually_install_files/P4_python_virtual.sh
 
 ---
 
-<details>
-<summary>🔧 <b>5. Configure Keras Backend (Required)</b></summary>
+## 🔧 5. Configure Keras Backend
 
 Set **Theano** as the backend:
 ```bash
@@ -108,30 +112,31 @@ Paste:
 
 ---
 
-<details>
-<summary>🧠 <b>6. Install DeepDist Tool (Python 3.6)</b></summary>
+## 🧠 6. Install DeepDist Tool (Python 3.6)
 
-Activate your **Python 3.6** environment:
 ```bash
+
+#Install Python 3.6 environment:
+mamba create python36 python=3.6
+mamba activate python36
+
 cd tools/deepdist
 python setup.py
 python configure.py
 sh installation/set_env.sh
 ```
-</details>
 
 ---
 
-<details>
-<summary>📊 <b>7. Install DistRank Tool</b></summary>
+## 📊 7. Install DistRank Tool
 
 ```bash
+mamba activate python36
 cd ../DistRank
 mkdir env
 python configure.py
 sh installation/set_env.sh
 ```
-</details>
 
 ---
 
@@ -144,6 +149,8 @@ sh bin/DeepRank3_Cluster.sh <target_id> <fasta_file> <model_dir> <output_dir>
 
 ### 🔹 **Examples**
 ```bash
+mamba activate python27
+
 # Cluster-based ranking
 sh bin/DeepRank3_Cluster.sh T0953s1 examples/T0953s1.fasta examples/T0953s1 examples/test_out
 
