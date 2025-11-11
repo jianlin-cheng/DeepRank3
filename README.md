@@ -37,7 +37,7 @@ source ~/.bashrc  # alternatively, one can restart their shell session to achiev
 ### a. Install python2.7 environment
 
 ```
-mamba create python27 python=2.7
+mamba create -n python27 python=2.7
 mamba activate python27
 ```
 
@@ -117,7 +117,7 @@ Paste:
 ```bash
 
 #Install Python 3.6 environment:
-mamba create python36 python=3.6
+mamba create -n python36 python=3.6
 mamba activate python36
 
 cd tools/deepdist
