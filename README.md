@@ -24,9 +24,9 @@ git clone https://huge200890@github.com/jianlin-cheng/DeepRank3.git
 
 cd DeepRank3
 
-wget "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
-bash Mambaforge-$(uname)-$(uname -m).sh  # accept all terms and install to the default location
-rm Mambaforge-$(uname)-$(uname -m).sh  # (optionally) remove installer after using it
+wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+bash Miniforge3-$(uname)-$(uname -m).sh  # accept all terms and install to the default location
+rm Miniforge3-$(uname)-$(uname -m).sh  # (optionally) remove installer after using it
 source ~/.bashrc  # alternatively, one can restart their shell session to achieve the same result
 ```
 
