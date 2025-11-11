@@ -15,7 +15,7 @@ pip3 install numpy==1.15.2
 pip3 install matplotlib
 pip3 install scipy
 pip3 install scikit-learn==0.20.3
-pip3 install opencv-python
+pip3 install opencv-python==4.5.5.64
 pip3 install --upgrade h5py
 
 echo "installed" > $env_dir/env_vir.done
